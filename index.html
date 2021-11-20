@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>goit markup hw 02</title>
+    <title>goit markup hw 03</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="container header-container">
         <nav class="header-nav">
             <a class="link header-logo header-logo-first-part" href="./" lang="en">Web<span class="header-logo-second-part">Studio</span></a>
@@ -46,13 +46,13 @@
     </header>
    
     <main>
-        <div class="container hero-container">
-            <section class="hero section"> 
+            <section class="hero"> 
+                <div class="container hero-container">
                 <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
                 <button class="hero-button" type="button">Заказать услугу</button>
-                
+                </div>
             </section>
-        </div>
+
         <section class="advantages section">
         <div class="container advantages-container">
         <ul class="list advantages-list">   
@@ -94,43 +94,54 @@
             </ul>
             </div>
         </section>
-            <div class="container team">
-                <section class="section">
+                <section class="section team-section">
+                    <div class="container team-container">
             <h2 class="team-title">Наша команда</h2>
             <ul class="list team-list">
                 <li class="team-item">
                         <img class="team-pic" src="./images/person1.jpg" width="400" alt="Игорь Демьяненко">
+                        <div class="team-info">
                         <h3 class="team-name">Игорь Демьяненко</h3>  
                         <p class="team-job" lang="en">Product Designer</p> 
+                        </div>
                 
                 </li>
                 <li class="team-item">
                         <img class="team-pic" src="./images/person2.jpg" width="400" alt="Ольга Репина">
+                        <div class="team-info">
                        <h3 class="team-name">Ольга Репина</h3>
                        <p class="team-job" lang="en">Frontend Developer</p>
+                    </div>
                    
                 </li>
                 <li class="team-item">
                         <img class="team-pic" src="./images/person3.jpg" width="400" alt="Николай Тарасов">
+                        <div class="team-info">
                        <h3 class="team-name">Николай Тарасов</h3>  
                        <p class="team-job" lang="en">Marketing</p>
+                    </div>
                     
                 </li>
                 <li class="team-item">
                         <img class="team-pic" src="./images/person4.jpg" width="400" alt="Михаил Ермаков">
+                        <div class="team-info">
                        <h3 class="team-name">Михаил Ермаков</h3> 
                        <p class="team-job" lang="en">UI Designer</p>  
+                    </div>
                 </li>
             </ul>
-            </section>
             </div>
+            </section>
+            
 
     </main>
 
-    <footer>
+    <footer class="footer">
         <div class="container footer-container">
+            <div class="logo">
         <a class="link footer-logo-first-part" href="/" lang="en">Web<span class="footer-logo-second-part">Studio</span></a>
-        <address>
+        </div>
+        <address class="address">
             <ul class="list footer-list">
                 <li class="footer-item">
                     <a class="link footer-address" href="https://goo.gl/maps/tLhUMKj88m91QNxx6"
