@@ -140,7 +140,6 @@ img {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  max-width: 1200px;
   background-color: var(--hero-bord);
   margin: 0 auto;
 }
@@ -212,7 +211,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .specialization-list {
@@ -228,7 +227,6 @@ img {
 }
 .team-section {
   background-color: var(--portfolio-button-background-color);
-  max-width: 1200px;
   margin: 0 auto;
   padding-top: 94px;
   padding-bottom: 94px;
@@ -286,8 +284,6 @@ img {
 
 .footer {
   align-items: center;
-}
-.footer-container {
   background-color: var(--hero-bord);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -410,5 +406,4 @@ img {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  margin-bottom: 20px;
 }
