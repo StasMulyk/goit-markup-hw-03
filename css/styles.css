@@ -195,7 +195,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--second-title-color);
   text-transform: uppercase;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .advantages-after-title {
